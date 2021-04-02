@@ -73,7 +73,7 @@ municipios_leftJoin_codigoibge <-
 sum(is.na(municipios_leftJoin_codigoibge$periodos))
 # como resultado foi 0 não houve NA como imaginávamos
 
-# VISUALIZACAO
+# VISUALIZACAO 1
 # Visualização dos dados
 municipios_leftJoin_codigoibge %>%
   ggplot() +
@@ -200,7 +200,7 @@ NAfilter <-
 
 nrow(NAfilter)
 
-# VISUALIZACAO
+# VISUALIZACAO 2
 # Visualização dos dados
 municipios_FullJoin_nomemunicipio_2 %>%
   ggplot() +
